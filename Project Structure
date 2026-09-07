@@ -1,0 +1,20 @@
+ai_supply_chain_risk_forecaster/
+│
+├── data/
+│   ├── news_raw.csv
+│   └── features.csv
+│
+├── models/
+│   ├── risk_model.pkl
+│   └── region_encoder.pkl
+│
+├── src/
+│   ├── config.py
+│   ├── collect_data.py
+│   ├── build_features.py
+│   ├── train_model.py
+│   ├── api.py
+│   └── dashboard.py
+│
+├── requirements.txt
+└── README.md
