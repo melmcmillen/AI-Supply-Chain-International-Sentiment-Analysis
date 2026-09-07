@@ -1,0 +1,39 @@
+1. Clone the repo
+
+git clone https://github.com/YOUR-USERNAME/ai_supply_chain_risk_forecaster.git
+cd ai_supply_chain_risk_forecaster
+
+2. Create virtual environment
+
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+
+4. Generate mock news data
+
+python .\src\collect_data.py
+
+5. Build features
+
+python .\src\build_features.py
+
+6. Train the model
+
+python .\src\train_model.py
+
+7. Start the API
+
+uvicorn src.api:app --reload
+
+8. Start the dashboard
+
+cd ai_supply_chain_risk_forecaster
+.\venv\Scripts\Activate.ps1
+streamlit run src/dashboard.py
+
+
