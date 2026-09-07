@@ -1,4 +1,4 @@
-# AI-Supply-Chain-Risk-Forecaster-International
+# AI-Supply-Chain-Risk-Forecaster-Sentiment-Analysis
 
 A lightweight project that forecasts supply chain risk levels across global regions using multilingual sentiment analysis, simple logistics indicators, and a clean Streamlit dashboard.
 
